@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"popashopa/feature_1"
 )
 
 type Auto struct {
@@ -23,5 +24,6 @@ func main()  {
 		fmt.Printf("Автомобиль: %10s | Мощность: %4d\n", av.Name, av.Power)
 	}
 
+	feature1.Feature1()
 
 }
